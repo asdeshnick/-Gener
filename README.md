@@ -1,4 +1,4 @@
-## Генерация лабиринта 
+# Генерация лабиринта 
 
 <img src="https://i.imgur.com/fTDcjB3.png" width="450" height="450">
 
