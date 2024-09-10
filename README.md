@@ -16,13 +16,13 @@
 
 #### Импорт необходимых библиотек
 
-`
+```
 import numpy as np
 import cv2
 import random
 import json
 import matplotlib.pyplot as plt
-`
+```
 
 ### Функции:
 
@@ -107,7 +107,7 @@ import matplotlib.pyplot as plt
 
 #### Задание параметров
 
-`
+```
 maze_size = 1000    # размер стороны лабиринта в пикселях 
 d = 15  # минимальное расстояние между стенками 
 c = 20  # ширина проходов
@@ -115,10 +115,11 @@ min_portion = 0.35  # минимальный процент ширины или 
 n = 8   # количество рекурсивных вызовов разреза всех коробок.
 window = False  # ключ для визуализации в отдельном окне 
 seed = 345  # сид для постоянства random
-`
+```
+
 #### Запуск программы 
 
-`
+```
 random.seed(seed)
 wall_list = []
 box_list = [(0,0,maze_size,maze_size)]
@@ -146,4 +147,4 @@ plt.figure(figsize=(9,9))
 plt.imshow(cv2.cvtColor(maze_img, cv2.COLOR_BGR2RGB))
 plt.axis('off')
 plt.show()
-`
+```
