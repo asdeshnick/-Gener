@@ -141,8 +141,10 @@ entry_point = random.sample(entry_point_list, 1)[0]
 exit_point = random.sample(exit_point_list, 1)[0]
 
 maze_img = show_maze(box_list, wall_list, entry_point, exit_point, window, maze_size)
-`
-`
+```
+
+
+```
 plt.figure(figsize=(9,9))
 plt.imshow(cv2.cvtColor(maze_img, cv2.COLOR_BGR2RGB))
 plt.axis('off')
